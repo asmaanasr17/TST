@@ -1,0 +1,199 @@
+header{
+    background-image: url(images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header h2::after{
+    content: "";
+animation-name: typing;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+h1{
+    font-size: bolder;
+}
+.header-content{
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+    align-items: center;
+}
+
+
+@keyframes typing {
+    0%{ content: "F|";}
+    11%{ content: "Fr|";}
+    22%{ content: "Free|";}
+    33%{ content: "Freel|";}
+    39%{ content: "Freela|";}
+    40%{ content: "Freelan|";}
+    50%{ content: "Freelanc|";}
+    60%{ content: "Freelance|";}
+    65%{ content: "Freelancer|";}
+    70%{ content: "D|";}
+    73%{ content: "De|";}
+    78%{ content: "Des|";}
+     80%{ content: "Desi|";} 
+    90%{ content: "Desin|";}
+    95%{ content: "Desine|";}
+    100%{ content: "Desiner|";}
+}
+/*.......................................... */
+
+.about
+{
+    background-color: #f8f9fa;
+}
+.about h2{
+    position: relative;
+    padding: 10px;
+}
+/* .about h2::after
+{
+content:'';
+position: absolute;
+top: 100%;
+left: 0;
+width: 80px;
+height: 3px;
+background-color: #09c;
+} */
+.about-container
+{
+    background-color: #fff;
+}
+.parent-html
+{
+    width: 85%;
+   background-color: #09c; 
+}
+.parent-css
+{
+    width: 75%;
+   background-color: #09c; 
+}
+.parent-php
+{
+    width: 50%;
+   background-color: #09c; 
+}
+.parent-java
+{
+    width: 90%;
+   background-color: #09c; 
+}
+/* ............................................. */
+
+.services{
+    background-color: #f8f9fa;
+
+}
+.services p .line{
+    position: relative;
+    padding: 10px;
+}
+.icon{
+    
+    left: 50%;
+   top: 20%;
+   transition: all 1s;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #09c;
+    background-color: #f1f1f1;
+}
+.icon i{
+font-size: 20px;
+}
+.item:hover .icon {
+    border: 7px solid rgba(255,255, 255, .3);
+    background-color: #09c;
+}
+/* ................................................... */
+.count{
+    background-image: url(../ass6/images/counters-bg.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+}
+.count i{
+display: flex;
+justify-content: center;
+align-items: center;
+  margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid ;
+}
+
+/* ...................... */
+.portofoilo h5{
+       font-size: 0rem !important; 
+}
+.portofoilo-item h3{
+    font-weight: bold;
+    font-size: calc(.55rem + .3vw) !important;
+}
+.portofoilo-item i {
+    border: 1px solid #09c;
+    padding: 7px 7px;
+    border-radius: 50%;
+}
+*/
+.portofoilo-item:hover img{
+  
+    transform: scale(1.1);
+}
+.portofoilo-item img{
+
+    transition: 1s linear;
+}
+
+/* ................................... */
+.testmonial
+{
+    background-image: url(images/overlay-bg.jpg);
+    background-position: center center;
+background-size: cover;
+}
+testmonial img{
+    width: 50px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50%;
+}
+.layer
+{
+    padding: 60px 0;
+background-color: rgba(0, 119, 255, .6);
+}
+/* ......................................... */
+.blog img{
+width: 25px;
+
+}
+/* ................................... */
+.contact{
+ background-image: url(images/overlay-bg.jpg);
+ background-position: center center;
+background-size: cover;
+}
+.contact btn{
+    padding: 15px ;
+    border: 1px solid;
+
+}
+.contact .social i{
+    border: 3px #0078ff solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+   
+}
